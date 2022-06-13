@@ -54,3 +54,19 @@ static List<Recipe> recipes = [
           'ሻይ ማንክያ ጨው',
           'መካከለኛ ጭልፋ የሾርባ ቅጠል ግንድ',
         ]),
+    Recipe(
+        id: '4',
+        title: 'ድብልብል ስጋ ወጥ',
+        imageUrl: 'assets/images/dubl.jpg',
+        nutrients: [
+          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+        ],
+        steps: [
+          'Gather the ingredients.',
+          'Pull a double shot of espresso into a cappuccino cup.',
+          'Foam the milk to double its original volume.'
+              'Top the espresso with foamed milk right after foaming. When initially poured, cappuccinos are only espresso and foam, but the liquid milk quickly settles out of the foam to create the (roughly) equal parts foam, steamed milk, and espresso for which cappuccino is known.',
+          'Serve immediately.'
+        ],
