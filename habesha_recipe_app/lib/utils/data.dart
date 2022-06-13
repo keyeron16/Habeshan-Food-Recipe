@@ -81,3 +81,12 @@ static List<Recipe> recipes = [
           '3 እንቁላል አሰራር ',
           '1. ስጋውን ከ ዱቄቱ እና ከ እንቁላሉ ጋር ጨው ጨምሮ ማሸት',
         ]),
+    Recipe(
+        id: '4',
+        title: 'አምባሻ',
+        imageUrl: 'assets/images/amb.jpg',
+        nutrients: [
+          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+        ],
