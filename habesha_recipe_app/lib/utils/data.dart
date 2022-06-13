@@ -79,6 +79,25 @@ static List<Recipe> recipes = [
           'የተፈጨ ኮሮሪማ ወይም ሌላ ቅመም',
           ' ጨው,ቁንዶ በርበሬ,ሚጥሚጣ',
         ]),
+      Recipe(
+        id: '4',
+        title: 'ዶሮ ወጥ',
+        imageUrl: 'assets/images/dorowet.jpg',
+        nutrients: [
+          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+        ],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
         
         
         
