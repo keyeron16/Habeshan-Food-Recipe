@@ -70,3 +70,17 @@ static List<Recipe> recipes = [
               'Top the espresso with foamed milk right after foaming. When initially poured, cappuccinos are only espresso and foam, but the liquid milk quickly settles out of the foam to create the (roughly) equal parts foam, steamed milk, and espresso for which cappuccino is known.',
           'Serve immediately.'
         ],
+         ingredients: [
+          '1 ኪሎ የተፈጨ ስጋ ',
+          '1 ጭልፋ የተፈጨ ሽንኩርት',
+          '1 ጭልፋ የተፈጨ ቲማቲም',
+          '1 የሻይ ማንኪያ ዘይት',
+          '1 የሻይ ማንኪያ ቅቤ',
+          '2 የሾርባ ማንኪያ ፍርኖ ዱቄት',
+          '1 የሻይ ማንኪያ ጨው ',
+          '2 የሻይ ማንኪያ ቀረፋ ',
+          '1 የሻይ ማንኪያ ቁንዶ በርበሬ',
+          '1 የሻይ ማንኪያ የተፈጨ ነጭ ሽንኩርት',
+          '3 እንቁላል አሰራር ',
+          '1. ስጋውን ከ ዱቄቱ እና ከ እንቁላሉ ጋር ጨው ጨምሮ ማሸት',
+        ]),
