@@ -64,11 +64,8 @@ static List<Recipe> recipes = [
           Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
         ],
         steps: [
-          'Gather the ingredients.',
-          'Pull a double shot of espresso into a cappuccino cup.',
-          'Foam the milk to double its original volume.'
-              'Top the espresso with foamed milk right after foaming. When initially poured, cappuccinos are only espresso and foam, but the liquid milk quickly settles out of the foam to create the (roughly) equal parts foam, steamed milk, and espresso for which cappuccino is known.',
-          'Serve immediately.'
+          '----------------.',
+          
         ],
          ingredients: [
           '1 ኪሎ የተፈጨ ስጋ ',
