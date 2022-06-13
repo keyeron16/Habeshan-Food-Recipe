@@ -55,6 +55,16 @@ static List<Recipe> recipes = [
           'መካከለኛ ጭልፋ የሾርባ ቅጠል ግንድ',
         ]),
     Recipe(
+        id: '3',
+        title: 'ክትፎ',
+        imageUrl: 'assets/images/kitfo.jpg',
+        nutrients: [
+          Nutrients(name: 'ኸሎሪ', weight: '100', percent: 0.2),
+          Nutrients(name: 'ፕርቲን', weight: '10gm', percent: 0.7),
+          Nutrients(name: 'Carb', weight: '50gm', percent: 0.6),
+          Nutrients(name: 'Fat', weight: '10gm', percent: 0.3),
+        ],
+    Recipe(
         id: '4',
         title: 'ድብልብል ስጋ ወጥ',
         imageUrl: 'assets/images/dubl.jpg',
