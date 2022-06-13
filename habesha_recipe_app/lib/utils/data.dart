@@ -222,3 +222,27 @@ static List<Recipe> recipes = [
           'የሻይ ማንኪያ የተፈጨ ነጭ ሽንኩርት',
           'እንቁላል ',
         ]),
+        Recipe(
+        id: '4',
+        title: 'የዳቦ ቆሎ',
+        imageUrl: 'assets/images/dkol.jpg',
+        nutrients: [
+          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+        ],
+      steps: [
+          'ፍርኖ ዱቄቱን ከ ውሃ ፤ ዘይት፤ ጨው እን ስኳር ጋር በደንብ መቀላቀል እና ማሸት'
+              'ያሸነውን በቀጭኑ በቁመት ማድቦልቦል'
+              'ያድቦለቦልነውን በመቀስ መምንፈልገው ቅርፅ መቁረጥ'
+              'የቆረጥነውን የእንጀራ ምጣድ ላይ አጋም እስኪመሥል መቁላት',
+        ],
+        ingredients: [
+          '1 ኪሎ ፍርኖ ዱቄት',
+          '1 ብርጩቆ ዘይት',
+          'ብርጭቆ ውሃ ',
+          'የሻይ ማንኪያ ቤኪንግ ፓውደር',
+          'የሾርባ ማንኪያ ስኳር',
+          'የሻይ ማንኪያ ጨው',
+        ]),      
+        
