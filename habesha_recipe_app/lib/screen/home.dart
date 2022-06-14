@@ -34,6 +34,7 @@ class HomePage extends StatelessWidget {
                  child: Container(
                     width: MediaQuery.of(context).size.width / 2,
                     height: 50,
+                   
                    )
             ),
           );
