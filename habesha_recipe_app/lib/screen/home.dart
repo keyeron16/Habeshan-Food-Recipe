@@ -17,10 +17,10 @@ class HomePage extends StatelessWidget {
                 
            onTap: () {
                   Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => DetailsPage(
-                                recipe: Data.recipes[index],
+                  context,
+                  MaterialPageRoute(
+                  builder: (context) => DetailsPage(
+                  recipe: Data.recipes[index],
              ))
            );
          },
