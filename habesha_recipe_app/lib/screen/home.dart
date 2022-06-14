@@ -23,6 +23,11 @@ class HomePage extends StatelessWidget {
                   recipe: Data.recipes[index],
               )
             )
+          child: Card(
+              color: Color.fromARGB(255, 145, 59, 1),
+              shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(0.0),
+            ),
           );
         },
       ),
