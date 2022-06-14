@@ -39,8 +39,8 @@ class HomePage extends StatelessWidget {
                         Expanded(
                           child: ClipRRect(
                             borderRadius: const BorderRadius.only(
-                              topLeft: Radius.circular(0.0),
-                              topRight: Radius.circular(0.0),
+                              topLeft: Radius.circular(8.0),
+                              topRight: Radius.circular(8.0),
                             ),
                             child: Hero(
                               tag: Data.recipes[index].id,
