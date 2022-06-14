@@ -52,12 +52,16 @@ class HomePage extends StatelessWidget {
                            )
                        
                    )
-                 ]
+                 
             ),
-          );
-        },
-      ),
-    );
+                          Padding(
+                     
+                       );      
+                     );
+                   ]
+                 },
+               ),
+             );
 
     return Scaffold(
            appBar: AppBar(
