@@ -50,10 +50,9 @@ class HomePage extends StatelessWidget {
                                 placeholder:
                                     AssetImage(Data.recipes[index].imageUrl),
                            )
-                          )
-                        ]
-                   
+                       
                    )
+                 ]
             ),
           );
         },
