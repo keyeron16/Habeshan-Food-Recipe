@@ -29,6 +29,16 @@ class HomePage extends StatelessWidget {
     );
 
     return Scaffold(
+           appBar: AppBar(
+        centerTitle: true,
+        title: const Text('ሀበሻ-ምግብ '),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(Icons.food_bank_rounded),
+            onPressed: () {},
+          )
+        ],
+      ),
 
   }
 }
