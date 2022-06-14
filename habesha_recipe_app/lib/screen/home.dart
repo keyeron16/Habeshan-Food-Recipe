@@ -34,6 +34,17 @@ class HomePage extends StatelessWidget {
                  child: Container(
                     width: MediaQuery.of(context).size.width / 2,
                     height: 50,
+                   child: Column(
+                      children: <Widget>[
+                        Expanded(
+                          child: ClipRRect(
+                            borderRadius: const BorderRadius.only(
+                              topLeft: Radius.circular(0.0),
+                              topRight: Radius.circular(0.0),
+                            ),
+                           )
+                          )
+                        ]
                    
                    )
             ),
