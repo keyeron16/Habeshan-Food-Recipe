@@ -5,6 +5,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
   var body = Container(
+     color: Color.fromARGB(255, 31, 42, 80),
       child: GridView.builder(
           shrinkWrap: false,
           itemCount: Data.recipes.length,
