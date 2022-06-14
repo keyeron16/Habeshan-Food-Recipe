@@ -21,10 +21,11 @@ class HomePage extends StatelessWidget {
                   MaterialPageRoute(
                   builder: (context) => DetailsPage(
                   recipe: Data.recipes[index],
-             ))
-           );
-         },
-      }),
+              )
+            )
+          );
+        },
+      ),
     );
 
     return Scaffold(
