@@ -31,6 +31,10 @@ class HomePage extends StatelessWidget {
               color: Color.fromARGB(255, 145, 59, 1),
               shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(0.0),
+                 child: Container(
+                    width: MediaQuery.of(context).size.width / 2,
+                    height: 50,
+                   )
             ),
           );
         },
