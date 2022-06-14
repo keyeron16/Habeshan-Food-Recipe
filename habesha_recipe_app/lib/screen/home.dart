@@ -42,6 +42,13 @@ class HomePage extends StatelessWidget {
                               topLeft: Radius.circular(0.0),
                               topRight: Radius.circular(0.0),
                             ),
+                            child: Hero(
+                              tag: Data.recipes[index].id,
+                              child: FadeInImage(
+                                image: AssetImage(Data.recipes[index].imageUrl),
+                                fit: BoxFit.cover,
+                                placeholder:
+                                    AssetImage(Data.recipes[index].imageUrl),
                            )
                           )
                         ]
