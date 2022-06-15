@@ -10,6 +10,10 @@ class DeveloperScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("Developer setting"),
       ),
+      body: ListView(
+        padding: const EdgeInsets.all(20),
+        children: const <Widget>[
+          ]
   
       ),
     );
