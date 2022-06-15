@@ -13,6 +13,17 @@ class DeveloperScreen extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(20),
         children: const <Widget>[
+           CircleAvatar(
+        
+          ),
+          Center(
+            
+          ),
+          Text(
+           
+            ),
+          ),
+          
           ]
   
       ),
