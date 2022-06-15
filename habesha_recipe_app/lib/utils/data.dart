@@ -296,3 +296,26 @@ static List<Recipe> recipes = [
           ' ውሀ',
           ' ቃሪያ',
         ]),
+            Recipe(
+        id: '4',
+        title: 'ቡላ',
+        imageUrl: 'assets/images/bula.jpg',
+        nutrients: [
+          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+        ],
+        steps: [
+          'ውሀ ማፍላት',
+          'ጨው መጨመር',
+          'ቡላ ዱቄቱን ቀስበቀስ በማማሰል መጨመር',
+          'ላላ እስከሚል ድረስ በደንብ ማማሰል',
+          'ሲበስል ቅቤ ና ሚጥሚጣ መጨመር.',
+        ],
+        ingredients: [
+          'ግማሸ ኪሎ ቡላ ዱቄት',
+          '1 ሾርባ ማንኪያ ጨዉ',
+          'ግማሸ ሊትር ዉሀ',
+          '2 ሾርባ ማንኪያ ሚጥሚጣ',
+          '2 የሻይ ማንኪያ ቅቤ',
+        ]),
