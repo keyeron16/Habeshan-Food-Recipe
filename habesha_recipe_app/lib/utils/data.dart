@@ -244,5 +244,28 @@ static List<Recipe> recipes = [
           'የሻይ ማንኪያ ቤኪንግ ፓውደር',
           'የሾርባ ማንኪያ ስኳር',
           'የሻይ ማንኪያ ጨው',
-        ]),      
+        ]),
+    Recipe(
+        id: '4',
+        title: 'ሽሮ ወጥ',
+        imageUrl: 'assets/images/shro.jpg',
+        nutrients: [
+          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+        ],
+        steps: [
+          ' ቲማቲሙን በዘይት ወይም በቂቤ ማቁላላት'
+              'ሲቁላላ ውሃ መጨመር'
+              'ሲፈላ ሽሮውን ጨምሮ በደምብ ማብሰል'
+              'ጨዉን እንደሰው ፍላጎት መጥኖ ማጣፈጥ'
+              'ወጡ ሲበስል ማውጣትና በቅቤ ከሆነ የተሰራው ትኩሱን፣ በዘይት ከሆነ የተሰራው ግን ቀዝቃዛውን ማቅረብ ይመረጣል.',
+        ],
+        ingredients: [
+          'አራት ጭልፋ ውሃ',
+          'አንድ ጭልፋ ምጥን ሽሮ',
+          'አንድ ጭልፋ ቅቤ ወይም ዘይት',
+          'ግማሽ ጭልፋ የተከተፈ ቲማቲም',
+          'ጨው',
+        ]),
         
