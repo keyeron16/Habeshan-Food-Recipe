@@ -11,20 +11,20 @@ class DeveloperScreen extends StatelessWidget {
         title: Text("Developer setting"),
       ),
       body: ListView(
-        padding: const EdgeInsets.all(20),
-        children: const <Widget>[
+         padding: const EdgeInsets.all(20),
+         children: const <Widget>[
            CircleAvatar(
-             maxRadius: 30,
+            maxRadius: 30,
             backgroundColor: Color.fromARGB(255, 112, 110, 110),
             child: Icon(Icons.person,
-                color: Color.fromARGB(255, 124, 70, 0), size: 50),
+            color: Color.fromARGB(255, 124, 70, 0), size: 50),
           ),
           Center(
-               child: Text(
+              child: Text(
               'Keyeron Sisay',
               style: TextStyle(
-                fontSize: 27,
-                fontWeight: FontWeight.bold,
+              fontSize: 27,
+              fontWeight: FontWeight.bold,
           ),
           Text(
              "Information  System 3rd Year Student @wku.",
@@ -33,7 +33,7 @@ class DeveloperScreen extends StatelessWidget {
             ),
           ),
           const Divider(),
-           CircleAvatar(
+          CircleAvatar(
        
           ),
           Center(
@@ -50,11 +50,33 @@ class DeveloperScreen extends StatelessWidget {
             maxRadius: 30,
             backgroundColor: Color.fromARGB(255, 112, 110, 110),
             child: Icon(Icons.person,
-                color: Color.fromARGB(255, 124, 70, 0), size: 50),
+            color: Color.fromARGB(255, 124, 70, 0), size: 50),
           ),
           Center(
             child: Text(
               'Simret Markos',
+              style: TextStyle(
+              fontSize: 27,
+              fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+          Text(
+            "Information  System 3rd Year Student @wku.",
+            style: TextStyle(
+            fontSize: 16,
+            ),
+          ),
+          const Divider(),
+          CircleAvatar(
+            maxRadius: 30,
+            backgroundColor: Color.fromARGB(255, 112, 110, 110),
+            child: Icon(Icons.person,
+                color: Color.fromARGB(255, 124, 70, 0), size: 50),
+          ),
+          Center(
+            child: Text(
+              'Abreham Amesa',
               style: TextStyle(
                 fontSize: 27,
                 fontWeight: FontWeight.bold,
@@ -67,9 +89,27 @@ class DeveloperScreen extends StatelessWidget {
               fontSize: 16,
             ),
           ),
+           CircleAvatar(
+            maxRadius: 30,
+            backgroundColor: Color.fromARGB(255, 112, 110, 110),
+            child: Icon(Icons.person,
+                color: Color.fromARGB(255, 124, 70, 0), size: 50),
+          ),
+          Center(
+            child: Text(
+              'Sosina Hizkiel',
+              style: TextStyle(fontSize: 27, fontWeight: FontWeight.bold),
+            ),
+          ),
+          Text(
+            "Information  System 3rd Year Student @wku.",
+            style: TextStyle(
+              fontSize: 16,
+            ),
+          ),
+          const Divider(),
           
           ]
-  
       ),
     );
   }
