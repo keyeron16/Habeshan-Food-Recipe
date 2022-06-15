@@ -58,7 +58,20 @@ class RecipeSteps extends StatelessWidget {
       shrinkWrap: true,
       physics: ClampingScrollPhysics(),
       scrollDirection: Axis.vertical,
-      itemBuilder: (BuildContext context, int index) 
+      itemBuilder: (BuildContext context, int index){
+        return ListTile(
+            leading: CircleAvatar(
+              backgroundColor: Theme.of(context).accentColor,
+              child: Text('${index + 1}',
+                  style: TextStyle(
+                      color: Colors.black, fontWeight: FontWeight.bold)),
+            ),
+            title: Text(steps[index],
+                style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 16)));
+      }, 
     );
   }
 }
