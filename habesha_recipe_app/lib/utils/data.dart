@@ -268,4 +268,31 @@ static List<Recipe> recipes = [
           'ግማሽ ጭልፋ የተከተፈ ቲማቲም',
           'ጨው',
         ]),
-        
+         Recipe(
+        id: '4',
+        title: 'ጎመን በስጋ(ቆጭቆጮ)',
+        imageUrl: 'assets/images/gsiga.jpg',
+        nutrients: [
+          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+        ],
+        steps: [
+          'ብረት ድስት ለይ ውሀ ጨምሮ እሳት ለይ መጣድ',
+          'ወሃው ሲፍለቀለቅ ጎመኑን እና ስጋውን መጨመር ፣በደንብ ማብሰል',
+          'ዘይትና ጨው ጨመሮ ማዋሀድ',
+          'የተከተፈ ቀይ ሽንኩርት ነጭ ሽንኩርት ጨመሮ ማዋሀድ',
+          'በስሎ ሊወርድ ሲል ቅቤ በመጠኑ መጨመር',
+          'በመጨረሻም ቃሪያ መጨመር',
+        ],
+        ingredients: [
+          ' ጎረድ ጎረድ ተደርጎ የተከተፈ የሀበሻ ጎመን',
+          ' አጥንት ያለው ስጋ',
+          ' ዘይት',
+          ' የተከተፈ ቀይ ሽንኩርት',
+          ' የተከተፈ ነጭ ሽንኩርት',
+          ' የተነጠረ ቅቤ',
+          ' ጨው',
+          ' ውሀ',
+          ' ቃሪያ',
+        ]),
