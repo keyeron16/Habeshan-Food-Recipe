@@ -33,6 +33,21 @@ static List<Recipe> recipes = [
           Nutrients(name: 'ፕርቲን', weight: '10gm', percent: 0.5),
           Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
         ],
+        Recipe(
+        id: '4',
+        title: 'ገንፎ',
+        imageUrl: 'assets/images/genfo.jpg',
+        nutrients: [
+          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+        ],
+        steps: [
+          'የስንዴውን ዱቄት በደንቡ ነፍቶ በነጩ ማመስ',
+          'ውሃውን ማፍላት',
+          'አንድ የሾርባ ማንኪያ ቅቤና ጨው ጨምሮ ማፍላት',
+          'ውሃው ሲፈላ ዱቄቱን በሙሉ በመጨመር ማማሰል',
+          'በወፍራሙ ገንፎውን ገለጥ ገለጥ እያደረጉ የፈላውን ወተትና ቅቤ ግማሽ ጠብ እያደረጉ መክደን',
         steps: [
           ' ስጋውና አጥንቱን በቀዝቃዛ ውሃ ማጠብ.',
           'አንዴ አገንፍሎ መድፋት .',
@@ -244,5 +259,127 @@ static List<Recipe> recipes = [
           'የሻይ ማንኪያ ቤኪንግ ፓውደር',
           'የሾርባ ማንኪያ ስኳር',
           'የሻይ ማንኪያ ጨው',
-        ]),      
-        
+        ]),
+    Recipe(
+        id: '4',
+        title: 'ሽሮ ወጥ',
+        imageUrl: 'assets/images/shro.jpg',
+        nutrients: [
+          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+        ],
+        steps: [
+          ' ቲማቲሙን በዘይት ወይም በቂቤ ማቁላላት'
+              'ሲቁላላ ውሃ መጨመር'
+              'ሲፈላ ሽሮውን ጨምሮ በደምብ ማብሰል'
+              'ጨዉን እንደሰው ፍላጎት መጥኖ ማጣፈጥ'
+              'ወጡ ሲበስል ማውጣትና በቅቤ ከሆነ የተሰራው ትኩሱን፣ በዘይት ከሆነ የተሰራው ግን ቀዝቃዛውን ማቅረብ ይመረጣል.',
+        ],
+        ingredients: [
+          'አራት ጭልፋ ውሃ',
+          'አንድ ጭልፋ ምጥን ሽሮ',
+          'አንድ ጭልፋ ቅቤ ወይም ዘይት',
+          'ግማሽ ጭልፋ የተከተፈ ቲማቲም',
+          'ጨው',
+        ]),
+         Recipe(
+        id: '4',
+        title: 'ጎመን በስጋ(ቆጭቆጮ)',
+        imageUrl: 'assets/images/gsiga.jpg',
+        nutrients: [
+          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+        ],
+        steps: [
+          'ብረት ድስት ለይ ውሀ ጨምሮ እሳት ለይ መጣድ',
+          'ወሃው ሲፍለቀለቅ ጎመኑን እና ስጋውን መጨመር ፣በደንብ ማብሰል',
+          'ዘይትና ጨው ጨመሮ ማዋሀድ',
+          'የተከተፈ ቀይ ሽንኩርት ነጭ ሽንኩርት ጨመሮ ማዋሀድ',
+          'በስሎ ሊወርድ ሲል ቅቤ በመጠኑ መጨመር',
+          'በመጨረሻም ቃሪያ መጨመር',
+        ],
+        ingredients: [
+          ' ጎረድ ጎረድ ተደርጎ የተከተፈ የሀበሻ ጎመን',
+          ' አጥንት ያለው ስጋ',
+          ' ዘይት',
+          ' የተከተፈ ቀይ ሽንኩርት',
+          ' የተከተፈ ነጭ ሽንኩርት',
+          ' የተነጠረ ቅቤ',
+          ' ጨው',
+          ' ውሀ',
+          ' ቃሪያ',
+        ]),
+            Recipe(
+        id: '4',
+        title: 'ቡላ',
+        imageUrl: 'assets/images/bula.jpg',
+        nutrients: [
+          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+        ],
+        steps: [
+          'ውሀ ማፍላት',
+          'ጨው መጨመር',
+          'ቡላ ዱቄቱን ቀስበቀስ በማማሰል መጨመር',
+          'ላላ እስከሚል ድረስ በደንብ ማማሰል',
+          'ሲበስል ቅቤ ና ሚጥሚጣ መጨመር.',
+        ],
+        ingredients: [
+          'ግማሸ ኪሎ ቡላ ዱቄት',
+          '1 ሾርባ ማንኪያ ጨዉ',
+          'ግማሸ ሊትር ዉሀ',
+          '2 ሾርባ ማንኪያ ሚጥሚጣ',
+          '2 የሻይ ማንኪያ ቅቤ',
+        ]),
+      Recipe(
+        id: '4',
+        title: 'እንጀራ',
+        imageUrl: 'assets/images/images (5).jpg',
+        nutrients: [
+          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+        ],
+        steps: [
+          'ጤፉን በጎድነጓዳ ሳህን መንፋት',
+          'ውሀ በያዘው ባልዲ ጨምሮ ለ3 ቀናት ማስቀመጥ',
+          'የቦካውን ዱቄት ማቅረር',
+          'አብሲት መጣል',
+          'ትንሽ ቆይቶ መጋገር.',
+        ],
+        ingredients: [
+          '3ኪሎ ጤፍ',
+          '5ሊትር ውሀ የያዘ ባልዲ',
+          'እርሾ',
+            
+        ]),
+           Recipe(
+        id: '4',
+        title: 'ገንፎ',
+        imageUrl: 'assets/images/genfo.jpg',
+        nutrients: [
+          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+        ],
+        steps: [
+          'የስንዴውን ዱቄት በደንቡ ነፍቶ በነጩ ማመስ',
+          'ውሃውን ማፍላት',
+          'አንድ የሾርባ ማንኪያ ቅቤና ጨው ጨምሮ ማፍላት',
+          'ውሃው ሲፈላ ዱቄቱን በሙሉ በመጨመር ማማሰል',
+          'በወፍራሙ ገንፎውን ገለጥ ገለጥ እያደረጉ የፈላውን ወተትና ቅቤ ግማሽ ጠብ እያደረጉ መክደን',
+            'እንዳይዝ መጠጥ ሲያደርግ እየከፈቱ ማማሰል',
+          'እንደገና የቀረውን ወተትና ቅቤ እየጨመሩ ማማሰል',
+          'ሲበስል በጎድጓዳ ሳህን አስተካክሎ ማውጣት',
+          'ሚጥሚጣውን በቀሪው ቅቤ በማደባለቅ መሃል ላይ ጎድጎድ አድርጎ በመጨመር መመገብ',
+        ],
+        ingredients: [
+          ' 6 የቡና ስኒ (300 ግራም) የስንዴ ዱቄት'
+              '5 ሾርባ ማንኪያ ቅቤ',
+          '2 ሻይ ማንኪያ ጨው',
+          'ግማሽ ሊትር ውሃ',
+          'ሻይ ማንኪያ ሚጥሚጣ',
+        ]),
