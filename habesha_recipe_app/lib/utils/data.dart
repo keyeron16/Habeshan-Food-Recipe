@@ -33,6 +33,21 @@ static List<Recipe> recipes = [
           Nutrients(name: 'ፕርቲን', weight: '10gm', percent: 0.5),
           Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
         ],
+        Recipe(
+        id: '4',
+        title: 'ገንፎ',
+        imageUrl: 'assets/images/genfo.jpg',
+        nutrients: [
+          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+        ],
+        steps: [
+          'የስንዴውን ዱቄት በደንቡ ነፍቶ በነጩ ማመስ',
+          'ውሃውን ማፍላት',
+          'አንድ የሾርባ ማንኪያ ቅቤና ጨው ጨምሮ ማፍላት',
+          'ውሃው ሲፈላ ዱቄቱን በሙሉ በመጨመር ማማሰል',
+          'በወፍራሙ ገንፎውን ገለጥ ገለጥ እያደረጉ የፈላውን ወተትና ቅቤ ግማሽ ጠብ እያደረጉ መክደን',
         steps: [
           ' ስጋውና አጥንቱን በቀዝቃዛ ውሃ ማጠብ.',
           'አንዴ አገንፍሎ መድፋት .',
