@@ -11,6 +11,15 @@ class DetailsPage extends StatelessWidget {
     return Scaffold(
       body: NestedScrollView(
         headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
+             return <Widget>[
+            SliverAppBar(
+              expandedHeight: 200.0,
+              floating: false,
+              pinned: true,
+              title: Text(recipe.title),
+             
+            ),
+          ];
           
         },
         body: Container(
