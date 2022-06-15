@@ -33,6 +33,11 @@ class DetailsPage extends StatelessWidget {
           
         },
         body: Container(
+             child: SingleChildScrollView(
+            physics: const BouncingScrollPhysics(),
+            child: Column(
+            )
+          ),
           
       ),
     );
