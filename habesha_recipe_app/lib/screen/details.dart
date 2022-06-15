@@ -33,7 +33,9 @@ class DetailsPage extends StatelessWidget {
           
         },
         body: Container(
-             child: SingleChildScrollView(
+           color: const Color.fromARGB(255, 21, 27, 43),
+           padding: const EdgeInsets.only(top: 8.0),
+            child: SingleChildScrollView(
             physics: const BouncingScrollPhysics(),
             child: Column(
             )
