@@ -17,6 +17,16 @@ class DetailsPage extends StatelessWidget {
               floating: false,
               pinned: true,
               title: Text(recipe.title),
+               flexibleSpace: FlexibleSpaceBar(
+                background: Hero(
+                  tag: recipe.id,
+                  child: FadeInImage(
+                    image: AssetImage(recipe.imageUrl),
+                    fit: BoxFit.cover,
+                    placeholder: AssetImage(recipe.imageUrl),
+                  ),
+                ),
+              ),
              
             ),
           ];
