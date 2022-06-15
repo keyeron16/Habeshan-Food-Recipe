@@ -32,7 +32,7 @@ class DeveloperScreen extends StatelessWidget {
               fontSize: 16,
             ),
           ),
-          
+          const Divider(),
            CircleAvatar(
        
           ),
@@ -45,6 +45,7 @@ class DeveloperScreen extends StatelessWidget {
           
             ),
           ),
+          const Divider(),
           
           ]
   
