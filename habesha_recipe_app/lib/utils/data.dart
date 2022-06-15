@@ -319,3 +319,24 @@ static List<Recipe> recipes = [
           '2 ሾርባ ማንኪያ ሚጥሚጣ',
           '2 የሻይ ማንኪያ ቅቤ',
         ]),
+      Recipe(
+        id: '4',
+        title: 'እንጀራ',
+        imageUrl: 'assets/images/images (5).jpg',
+        nutrients: [
+          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+        ],
+        steps: [
+          'ጤፉን በጎድነጓዳ ሳህን መንፋት',
+          'ውሀ በያዘው ባልዲ ጨምሮ ለ3 ቀናት ማስቀመጥ',
+          'የቦካውን ዱቄት ማቅረር',
+          'አብሲት መጣል',
+          'ትንሽ ቆይቶ መጋገር.',
+        ],
+        ingredients: [
+          '3ኪሎ ጤፍ',
+          '5ሊትር ውሀ የያዘ ባልዲ',
+          'እርሾ',
+        ]),
