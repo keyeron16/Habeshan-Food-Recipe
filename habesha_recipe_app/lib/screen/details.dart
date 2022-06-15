@@ -46,3 +46,19 @@ class DetailsPage extends StatelessWidget {
   }
 }
 
+class RecipeSteps extends StatelessWidget {
+  final List<String> steps;
+  RecipeSteps({this.steps = const []});
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView.builder(
+      itemCount: steps.length,
+      padding: const EdgeInsets.all(0.0),
+      shrinkWrap: true,
+      physics: ClampingScrollPhysics(),
+      scrollDirection: Axis.vertical,
+      itemBuilder: (BuildContext context, int index) 
+    );
+  }
+}
