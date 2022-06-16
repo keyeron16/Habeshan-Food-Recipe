@@ -55,6 +55,14 @@ class HomePage extends StatelessWidget {
                  
             ),
                           Padding(
+                              padding: const EdgeInsets.all(4.0),
+                          child: Text(
+                            Data.recipes[index].title,
+                            style: const TextStyle(
+                                color: Color.fromARGB(255, 255, 255, 255),
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold),
+                          ),
                      
                        );      
                      );
