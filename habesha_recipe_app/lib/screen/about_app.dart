@@ -19,6 +19,11 @@ class AboutScreen extends StatelessWidget {
               ),
             ),
           ),
+             Text(
+            "version  0.1.",
+            style: TextStyle(
+              fontSize: 16,
+            ),
            
            
         ]
