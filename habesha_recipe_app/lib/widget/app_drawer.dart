@@ -28,8 +28,9 @@ class AppDrawer extends StatelessWidget {
                       SizedBox(width: 15),
                       Text('Overview')
                     ],
-            ),
-          )
+                  ),
+                )
+           const Divider(),
 
         ],
       ),
