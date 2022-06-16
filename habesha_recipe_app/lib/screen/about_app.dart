@@ -9,10 +9,12 @@ class AboutScreen extends StatelessWidget {
      return Scaffold(
       appBar: AppBar(
         title: const Text("About this App"),
+           body: ListView(
+           padding: const EdgeInsets.all(20),
        
-       
+      
+        ),
       ),
     );
-  
   }
 }
