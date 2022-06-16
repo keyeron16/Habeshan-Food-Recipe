@@ -19,7 +19,15 @@ class AppDrawer extends StatelessWidget {
             //color: Color.fromARGB(255, 7, 65, 255),
             padding: const EdgeInsets.all(16),
             child: Column(
-
+               children: [
+                InkWell(
+                  onTap: () => {Navigator.of(context).pushNamed('/')},
+                  child: Row(
+                    children: const [
+                      Icon(Icons.home),
+                      SizedBox(width: 15),
+                      Text('Overview')
+                    ],
             ),
           )
 
