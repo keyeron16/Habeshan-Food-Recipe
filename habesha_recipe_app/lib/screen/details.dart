@@ -105,3 +105,28 @@ class NutritionWidget extends StatelessWidget {
 class IngredientsWidget extends StatelessWidget {
   final List<String>? ingredients;
   IngredientsWidget({this.ingredients});
+@override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      height: 50,
+      width: double.infinity,
+      child: ListView.builder(
+        itemCount: ingredients!.length,
+        shrinkWrap: true,
+        scrollDirection: Axis.horizontal,
+        physics: BouncingScrollPhysics(),
+        itemBuilder: (BuildContext context, int index) {
+          return Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Chip(
+              backgroundColor: Theme.of(context).accentColor,
+              label: Text(ingredients![index],
+                  style: TextStyle(
+                      color: Colors.black, fontWeight: FontWeight.bold)),
+            ),
+          );
+        },
+      ),
+    );
+  }
+}
