@@ -10,6 +10,15 @@ class AboutScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("About this App"),
          children: const <Widget>[
+            Center(
+            child: Text(
+              '',
+              style: TextStyle(
+                fontSize: 27,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
            
            
         ]
