@@ -26,6 +26,12 @@ class AboutScreen extends StatelessWidget {
             ),
            ),
           Divider(),
+          Center(
+         
+          ),
+         Text(
+        
+          ),
            
            
         ]
