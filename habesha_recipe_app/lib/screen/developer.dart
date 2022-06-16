@@ -118,6 +118,20 @@ class DeveloperScreen extends StatelessWidget {
             ),
           ),
           const Divider(),
+           const Divider(),
+          CircleAvatar(
+            maxRadius: 30,
+            backgroundColor: Color.fromARGB(255, 112, 110, 110),
+            child: Icon(Icons.person,
+                color: Color.fromARGB(255, 124, 70, 0), size: 50),
+          ),
+          Center(
+            child: Text(
+              'Abigael Tiezazu',
+              style: TextStyle(fontSize: 27, fontWeight: FontWeight.bold),
+            ),
+          ),
+          
           
           ]
       ),
