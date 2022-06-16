@@ -59,12 +59,17 @@ class AboutScreen extends StatelessWidget {
             child: Text(
               '',
               style: TextStyle(
-                fontSize: 27,
-                fontWeight: FontWeight.bold,
+              fontSize: 27,
+              fontWeight: FontWeight.bold,
               ),
             ),
           ),
-       
+          Text(
+            "This application is developed by wolkite university 3rd year information system student in 2022 in titled in habeshan food recipe this application contain detail description of habeshan food.",
+            style: TextStyle(
+            fontSize: 16,
+            ),
+          ),
         ]
       ),
     );
