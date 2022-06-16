@@ -24,6 +24,8 @@ class AboutScreen extends StatelessWidget {
             style: TextStyle(
               fontSize: 16,
             ),
+           ),
+          Divider(),
            
            
         ]
