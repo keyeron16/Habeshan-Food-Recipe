@@ -102,3 +102,6 @@ class NutritionWidget extends StatelessWidget {
    
   }
 }
+class IngredientsWidget extends StatelessWidget {
+  final List<String>? ingredients;
+  IngredientsWidget({this.ingredients});
