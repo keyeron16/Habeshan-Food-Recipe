@@ -75,3 +75,11 @@ class RecipeSteps extends StatelessWidget {
     );
   }
 }
+class NutritionWidget extends StatelessWidget {
+  final List<Nutrients>? nutrients;
+  NutritionWidget({this.nutrients});
+  @override
+  Widget build(BuildContext context) {
+   
+  }
+}
