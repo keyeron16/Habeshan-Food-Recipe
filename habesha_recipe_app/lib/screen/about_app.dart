@@ -9,10 +9,11 @@ class AboutScreen extends StatelessWidget {
      return Scaffold(
       appBar: AppBar(
         title: const Text("About this App"),
-       
-       
+         children: const <Widget>[
+           
+           
+        ]
       ),
     );
-  
   }
 }
