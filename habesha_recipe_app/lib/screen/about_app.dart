@@ -25,13 +25,26 @@ class AboutScreen extends StatelessWidget {
               fontSize: 16,
             ),
            ),
-          Divider(),
+         Divider(),
           Center(
-         
+           child: Text(
+              ' ',
+              style: TextStyle(
+              fontSize: 27,
+              fontWeight: FontWeight.bold,
+              ),
+            ),
+
           ),
          Text(
-        
+            "Year released:  2022 GC/2014 E.C",
+            style: TextStyle(
+            fontSize: 16,
+            ),
+
           ),
+         Divider(),
+           
            
            
         ]
