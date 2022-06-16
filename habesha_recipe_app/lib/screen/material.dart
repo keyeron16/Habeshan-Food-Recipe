@@ -20,7 +20,13 @@ class DeveloperScreen extends StatelessWidget {
               fontSize: 27,
               fontWeight: FontWeight.bold,
           ),
-         
+          Text(
+             "",
+            style: TextStyle(
+              fontSize: 16,
+            ),
+          ),
+          const Divider(),
           ]
         )
       }
