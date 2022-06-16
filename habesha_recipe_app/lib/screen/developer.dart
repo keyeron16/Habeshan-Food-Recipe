@@ -131,6 +131,12 @@ class DeveloperScreen extends StatelessWidget {
               style: TextStyle(fontSize: 27, fontWeight: FontWeight.bold),
             ),
           ),
+           Text(
+           "Information  System 3rd Year Student @wku.",
+            style: TextStyle(
+              fontSize: 16,
+            ),
+          )
           
           
           ]
