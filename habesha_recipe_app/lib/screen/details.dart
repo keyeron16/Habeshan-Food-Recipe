@@ -84,6 +84,15 @@ class NutritionWidget extends StatelessWidget {
       height: 86,
       width: double.infinity,
       child: Center(
+          child: ListView.builder(
+          itemCount: nutrients!.length,
+          scrollDirection: Axis.horizontal,
+          shrinkWrap: true,
+          physics: BouncingScrollPhysics(),
+          itemBuilder: (BuildContext context, int index) {
+           
+          },
+        ),
 
       ),
     );
