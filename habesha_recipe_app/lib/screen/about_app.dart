@@ -53,7 +53,18 @@ class AboutScreen extends StatelessWidget {
             style: TextStyle(
             fontSize: 16,
           ),
-        ),     
+        ), 
+       Divider(),
+          Center(
+            child: Text(
+              '',
+              style: TextStyle(
+                fontSize: 27,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+       
         ]
       ),
     );
