@@ -13,6 +13,10 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.green,
         ),
         home: HomePage(),
+      routes: {
+          DeveloperScreen.routeName: (_) => const DeveloperScreen(),
+          AboutScreen.routeName: (_) => const AboutScreen(),
+        }
     );
   }
 }
