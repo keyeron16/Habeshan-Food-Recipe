@@ -90,7 +90,10 @@ class NutritionWidget extends StatelessWidget {
           shrinkWrap: true,
           physics: BouncingScrollPhysics(),
           itemBuilder: (BuildContext context, int index) {
-           
+             return CircleIndicator(
+              percent: nutrients![index].percent,
+              nutrient: nutrients![index],
+            );
           },
         ),
 
