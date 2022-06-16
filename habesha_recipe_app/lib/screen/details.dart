@@ -80,6 +80,13 @@ class NutritionWidget extends StatelessWidget {
   NutritionWidget({this.nutrients});
   @override
   Widget build(BuildContext context) {
+     return SizedBox(
+      height: 86,
+      width: double.infinity,
+      child: Center(
+
+      ),
+    );
    
   }
 }
