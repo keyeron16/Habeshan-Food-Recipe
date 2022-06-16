@@ -8,7 +8,7 @@ class DeveloperScreen extends StatelessWidget {
   Widget build(BuildContext context) {
      return Scaffold(
       appBar: AppBar(
-        title: Text("Developer setting"),
+        title: Text("Material selection"),
       ),
   
   
