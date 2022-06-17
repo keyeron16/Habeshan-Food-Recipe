@@ -33,7 +33,7 @@ class DeveloperScreen extends StatelessWidget {
           Divider(),
 
           Center(
-              'Hamerti Dinkesa',
+              '',
               style: TextStyle(
               fontSize: 27,
               fontWeight: FontWeight.bold,
