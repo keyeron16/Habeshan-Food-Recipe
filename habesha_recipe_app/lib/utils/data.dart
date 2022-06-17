@@ -1,3 +1,7 @@
+import '../utils/class.dart';
+
+class Data {
+
 static List<Recipe> recipes = [
     Recipe(
         id: '1',
@@ -24,15 +28,7 @@ static List<Recipe> recipes = [
           'የጭቅና ስጋ, በርበሬ,የተከተፈ ቃሪያ',
           'ቅቤ, ቁንዶ በርበሬ ፣ ኮሮሮሪማ,ጨው',
         ]),
-    Recipe(
-        id: '2',
-        title: 'ቅቅል',
-        imageUrl: 'assets/images/kikil.jpg',
-        nutrients: [
-          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
-          Nutrients(name: 'ፕርቲን', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
-        ],
+   
         Recipe(
         id: '4',
         title: 'ገንፎ',
@@ -48,12 +44,6 @@ static List<Recipe> recipes = [
           'አንድ የሾርባ ማንኪያ ቅቤና ጨው ጨምሮ ማፍላት',
           'ውሃው ሲፈላ ዱቄቱን በሙሉ በመጨመር ማማሰል',
           'በወፍራሙ ገንፎውን ገለጥ ገለጥ እያደረጉ የፈላውን ወተትና ቅቤ ግማሽ ጠብ እያደረጉ መክደን',
-        steps: [
-          ' ስጋውና አጥንቱን በቀዝቃዛ ውሃ ማጠብ.',
-          'አንዴ አገንፍሎ መድፋት .',
-          'በውሃ ጥዶ ጨው ጨምሮ ማማሰል .',
-          ' ግማሹ ሲበስል ሽንኩርቱን, ባሮ, ርጥብ ቅመም, እርድ, ቅቤና የሾርባ ቅጠል ግንድ  ጨምሮ ማንተክተክ.',
-          'ሲበስል ነጭ ቅመም, በሶብላና ቃርያ ጨምሮ ማቅረብ.',
         ],
         ingredients: [
           ' ኪሎ ግራም አጥንት የሌለው ስጋ',
@@ -378,8 +368,10 @@ static List<Recipe> recipes = [
         ],
         ingredients: [
           ' 6 የቡና ስኒ (300 ግራም) የስንዴ ዱቄት'
-              '5 ሾርባ ማንኪያ ቅቤ',
+          '5 ሾርባ ማንኪያ ቅቤ',
           '2 ሻይ ማንኪያ ጨው',
           'ግማሽ ሊትር ውሃ',
           'ሻይ ማንኪያ ሚጥሚጣ',
-        ]),
+         ]), 
+  ];
+}

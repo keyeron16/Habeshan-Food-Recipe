@@ -48,6 +48,7 @@ class AboutScreen extends StatelessWidget {
            fontWeight: FontWeight.bold,
          ),
        ),
+         ),
          Text(
             "Android  vs iOS.",
             style: TextStyle(
