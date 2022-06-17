@@ -75,33 +75,7 @@ class RecipeSteps extends StatelessWidget {
     );
   }
 }
-class NutritionWidget extends StatelessWidget {
-  final List<Nutrients>? nutrients;
-  NutritionWidget({this.nutrients});
-  @override
-  Widget build(BuildContext context) {
-     return SizedBox(
-      height: 86,
-      width: double.infinity,
-      child: Center(
-          child: ListView.builder(
-          itemCount: nutrients!.length,
-          scrollDirection: Axis.horizontal,
-          shrinkWrap: true,
-          physics: BouncingScrollPhysics(),
-          itemBuilder: (BuildContext context, int index) {
-             return CircleIndicator(
-              percent: nutrients![index].percent,
-              nutrient: nutrients![index],
-            );
-          },
-        ),
 
-      ),
-    );
-   
-  }
-}
 class IngredientsWidget extends StatelessWidget {
   final List<String>? ingredients;
   IngredientsWidget({this.ingredients});
@@ -128,5 +102,32 @@ class IngredientsWidget extends StatelessWidget {
         },
       ),
     );
+  }
+}
+class NutritionWidget extends StatelessWidget {
+  final List<Nutrients>? nutrients;
+  NutritionWidget({this.nutrients});
+  @override
+  Widget build(BuildContext context) {
+     return SizedBox(
+      height: 86,
+      width: double.infinity,
+      child: Center(
+          child: ListView.builder(
+          itemCount: nutrients!.length,
+          scrollDirection: Axis.horizontal,
+          shrinkWrap: true,
+          physics: BouncingScrollPhysics(),
+          itemBuilder: (BuildContext context, int index) {
+             return CircleIndicator(
+              percent: nutrients![index].percent,
+              nutrient: nutrients![index],
+            );
+          },
+        ),
+
+      ),
+    );
+   
   }
 }
