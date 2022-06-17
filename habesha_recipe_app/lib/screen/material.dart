@@ -40,7 +40,7 @@ class DeveloperScreen extends StatelessWidget {
               ),
             ),
           Text(
-            "Information  System 3rd Year Student @wku.",
+            ".",
             style: TextStyle(
             fontSize: 16,
             ),
