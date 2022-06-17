@@ -45,6 +45,21 @@ class DeveloperScreen extends StatelessWidget {
             fontSize: 16,
             ),
             ),
+                     Divider(),
+
+          Center(
+              '',
+              style: TextStyle(
+              fontSize: 27,
+              fontWeight: FontWeight.bold,
+              ),
+            ),
+          Text(
+            ".",
+            style: TextStyle(
+            fontSize: 16,
+            ),
+            ),
           ),
 
           ),
