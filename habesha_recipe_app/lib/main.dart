@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../screen/about_app.dart';
 import '../screen/developer.dart';
 import '../screen/home.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -15,10 +16,9 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.green,
         ),
         home: HomePage(),
-      routes: {
+        routes: {
           DeveloperScreen.routeName: (_) => const DeveloperScreen(),
           AboutScreen.routeName: (_) => const AboutScreen(),
-        }
-    );
+        });
   }
 }
