@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/screens/developer.dart';
-
-import '../screens/about_app.dart';
+import '../screen/developer.dart';
+import '../screen/about_app.dart';
 
 
 class AppDrawer extends StatelessWidget {
@@ -30,11 +29,15 @@ class AppDrawer extends StatelessWidget {
                     ],
                   ),
                 )
-           const Divider(),
+               ]
+           
 
-        ],
+        
       ),
-    );
-
+          
+    )
+    ]
+  )
+);
   }
 }

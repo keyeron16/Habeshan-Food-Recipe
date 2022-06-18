@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import '../screens/details.dart';
+import '../screen/details.dart';
 import '../utils/data.dart';
-import 'package:flutter/material.dart';
 
-
+import '../widget/app_drawer.dart';
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -25,8 +24,10 @@ class HomePage extends StatelessWidget {
                   MaterialPageRoute(
                   builder: (context) => DetailsPage(
                   recipe: Data.recipes[index],
+                  
               )
             )
+          
           child: Card(
               color: Color.fromARGB(255, 145, 59, 1),
               shape: RoundedRectangleBorder(
@@ -49,19 +50,30 @@ class HomePage extends StatelessWidget {
                                 fit: BoxFit.cover,
                                 placeholder:
                                     AssetImage(Data.recipes[index].imageUrl),
-                           )
-                       
-                   )
+                           ),
+                        ),
+                   ),
                  
             ),
-                          Padding(
-                     
-                       );      
-                     );
-                   ]
-                 },
-               ),
-             );
+                      
+                Padding(
+                          padding: const EdgeInsets.all(4.0),
+                          child: Text(
+                          Data.recipes[index].title,
+                          style: const TextStyle(
+                          color: Color.fromARGB(255, 255, 255, 255),
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold),
+                       ),
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            );
+          }),
+    );
 
     return Scaffold(
            appBar: AppBar(
@@ -74,6 +86,8 @@ class HomePage extends StatelessWidget {
           )
         ],
       ),
-
-  }
+     drawer: const AppDrawer(),
+    body: body,
+    );
+ }
 }

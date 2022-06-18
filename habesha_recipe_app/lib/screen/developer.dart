@@ -118,7 +118,6 @@ class DeveloperScreen extends StatelessWidget {
             ),
           ),
           const Divider(),
-           const Divider(),
           CircleAvatar(
             maxRadius: 30,
             backgroundColor: Color.fromARGB(255, 112, 110, 110),
@@ -137,8 +136,6 @@ class DeveloperScreen extends StatelessWidget {
               fontSize: 16,
             ),
           )
-          
-          
           ]
       ),
     );
