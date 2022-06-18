@@ -7,6 +7,9 @@ class AboutScreen extends StatelessWidget {
      return Scaffold(
       appBar: AppBar(
         title: const Text("About this App"),
+
+           body: ListView(
+           padding: const EdgeInsets.all(20),
          children: const <Widget>[
             Center(
             child: Text(
@@ -31,6 +34,7 @@ class AboutScreen extends StatelessWidget {
            fontSize: 27,
            fontWeight: FontWeight.bold,
           ),
+
         ),
       ),
          Text(
@@ -74,5 +78,7 @@ class AboutScreen extends StatelessWidget {
       ]
      ),
     );
+
    }
+
   }
