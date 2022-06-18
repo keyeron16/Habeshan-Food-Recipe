@@ -77,8 +77,11 @@ class HomePage extends StatelessWidget {
         title: const Text('ሀበሻ-ምግብ '),
         actions: <Widget>[
           IconButton(
-            icon: const Icon(Icons.food_bank_rounded),
-            onPressed: () {},
+            icon: const Icon(Icons.close),
+            onPressed: ()
+            {
+              SystemNavigator.pop(),
+            },
           )
         ],
       ),
