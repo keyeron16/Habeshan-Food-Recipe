@@ -19,6 +19,8 @@ class DeveloperScreen extends StatelessWidget {
               style: TextStyle(
               fontSize: 27,
               fontWeight: FontWeight.bold,
+                
+                
           ),
         )
       ),
@@ -29,6 +31,53 @@ class DeveloperScreen extends StatelessWidget {
             ),
           ),
           Divider(),
+
+          Center(
+              '',
+              style: TextStyle(
+              fontSize: 27,
+              fontWeight: FontWeight.bold,
+              ),
+            ),
+          Text(
+            ".",
+            style: TextStyle(
+            fontSize: 16,
+            ),
+            ),
+                     Divider(),
+
+          Center(
+              '',
+              style: TextStyle(
+              fontSize: 27,
+              fontWeight: FontWeight.bold,
+              ),
+            ),
+          Text(
+            ".",
+            style: TextStyle(
+            fontSize: 16,
+            ),
+            ),
+        Divider(),
+
+          Center(
+              '',
+              style: TextStyle(
+              fontSize: 27,
+              fontWeight: FontWeight.bold,
+              ),
+            ),
+          Text(
+            ".",
+            style: TextStyle(
+            fontSize: 16,
+            ),
+            ),
+          ),
+
+          ),
           ]
          )
         );
