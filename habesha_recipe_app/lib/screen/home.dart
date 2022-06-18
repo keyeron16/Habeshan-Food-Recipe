@@ -1,47 +1,45 @@
 import 'package:flutter/material.dart';
 import '../screen/details.dart';
 import '../utils/data.dart';
-
 import '../widget/app_drawer.dart';
+
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-  var body = Container(
-     color: Color.fromARGB(255, 31, 42, 80),
+    var body = Container(
+      color: Color.fromARGB(255, 31, 42, 80),
       child: GridView.builder(
           shrinkWrap: false,
           itemCount: Data.recipes.length,
-                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2),
           itemBuilder: (BuildContext context, int index) {
             return Padding(
               padding: const EdgeInsets.all(8.0),
               child: InkWell(
-                
-           onTap: () {
+                onTap: () {
                   Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                  builder: (context) => DetailsPage(
-                  recipe: Data.recipes[index],
-                  
-              )
-            )
-          
-          child: Card(
-              color: Color.fromARGB(255, 145, 59, 1),
-              shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(0.0),
-                 child: Container(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => DetailsPage(
+                                recipe: Data.recipes[index],
+                              )));
+                },
+                child: Card(
+                  color: Color.fromARGB(255, 145, 59, 1),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(0.0),
+                  ),
+                  child: Container(
                     width: MediaQuery.of(context).size.width / 2,
                     height: 50,
-                   child: Column(
+                    child: Column(
                       children: <Widget>[
                         Expanded(
                           child: ClipRRect(
                             borderRadius: const BorderRadius.only(
-                              topLeft: Radius.circular(8.0),
-                              topRight: Radius.circular(8.0),
+                              topLeft: Radius.circular(0.0),
+                              topRight: Radius.circular(0.0),
                             ),
                             child: Hero(
                               tag: Data.recipes[index].id,
@@ -50,21 +48,19 @@ class HomePage extends StatelessWidget {
                                 fit: BoxFit.cover,
                                 placeholder:
                                     AssetImage(Data.recipes[index].imageUrl),
-                           ),
+                              ),
+                            ),
+                          ),
                         ),
-                   ),
-                 
-            ),
-                      
-                Padding(
+                        Padding(
                           padding: const EdgeInsets.all(4.0),
                           child: Text(
-                          Data.recipes[index].title,
-                          style: const TextStyle(
-                          color: Color.fromARGB(255, 255, 255, 255),
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold),
-                       ),
+                            Data.recipes[index].title,
+                            style: const TextStyle(
+                                color: Color.fromARGB(255, 255, 255, 255),
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold),
+                          ),
                         )
                       ],
                     ),
@@ -76,7 +72,7 @@ class HomePage extends StatelessWidget {
     );
 
     return Scaffold(
-           appBar: AppBar(
+      appBar: AppBar(
         centerTitle: true,
         title: const Text('ሀበሻ-ምግብ '),
         actions: <Widget>[
@@ -86,8 +82,8 @@ class HomePage extends StatelessWidget {
           )
         ],
       ),
-     drawer: const AppDrawer(),
-    body: body,
+      drawer: const AppDrawer(),
+      body: body,
     );
- }
+  }
 }

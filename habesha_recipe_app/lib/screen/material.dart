@@ -33,11 +33,15 @@ class DeveloperScreen extends StatelessWidget {
           Divider(),
 
           Center(
+                child: Text(
               '',
               style: TextStyle(
               fontSize: 27,
               fontWeight: FontWeight.bold,
-              ),
+                
+                
+          ),
+        )
             ),
           Text(
             ".",
@@ -48,11 +52,15 @@ class DeveloperScreen extends StatelessWidget {
                      Divider(),
 
           Center(
+               child: Text(
               '',
               style: TextStyle(
               fontSize: 27,
               fontWeight: FontWeight.bold,
-              ),
+                
+                
+          ),
+        )
             ),
           Text(
             ".",
@@ -63,11 +71,15 @@ class DeveloperScreen extends StatelessWidget {
         Divider(),
 
           Center(
+               child: Text(
               '',
               style: TextStyle(
               fontSize: 27,
               fontWeight: FontWeight.bold,
-              ),
+                
+                
+          ),
+        )
             ),
           Text(
             ".",
@@ -75,11 +87,10 @@ class DeveloperScreen extends StatelessWidget {
             fontSize: 16,
             ),
             ),
+         ]
           ),
 
-          ),
-          ]
-         )
-        );
+          );
+   
       }
     }
