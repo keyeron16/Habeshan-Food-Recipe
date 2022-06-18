@@ -9,11 +9,19 @@ class AboutScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("About this App"),
+<<<<<<< HEAD
       ),
       body: ListView(
         padding: const EdgeInsets.all(20),
         children: const <Widget>[
           Center(
+=======
+
+           body: ListView(
+           padding: const EdgeInsets.all(20),
+         children: const <Widget>[
+            Center(
+>>>>>>> c9aec2172738f28bfa525dc8df83268015397a3d
             child: Text(
               '',
               style: TextStyle(
@@ -38,7 +46,14 @@ class AboutScreen extends StatelessWidget {
               ),
             ),
           ),
+<<<<<<< HEAD
           Text(
+=======
+
+        ),
+      ),
+         Text(
+>>>>>>> c9aec2172738f28bfa525dc8df83268015397a3d
             "Year released:  2022 GC/2014 E.C",
             style: TextStyle(
               fontSize: 16,
@@ -79,5 +94,11 @@ class AboutScreen extends StatelessWidget {
         ],
       ),
     );
+<<<<<<< HEAD
+=======
+
+   }
+
+>>>>>>> c9aec2172738f28bfa525dc8df83268015397a3d
   }
 }
