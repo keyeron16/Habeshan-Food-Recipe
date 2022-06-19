@@ -8,35 +8,42 @@ static List<Recipe> recipes = [
         title: 'ዱለት',
         imageUrl: 'assets/images/dulet.jpg',
         nutrients: [
-          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
-          Nutrients(name: 'ፕርቲን', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'ኽርብ', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'ካሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'ፕሮቲን', weight: '100gm', percent: 0.6),
+          Nutrients(name: 'ካርቦሃይድርት', weight: '150gm', percent: 0.2),
+          Nutrients(name: 'ፋት', weight: '100gm', percent: 0.7),
         ],
         steps: [
           'ጭጓራውን እና ጉበቱን በማጠብ በደንብ መክተፍ.',
           'ስጋውን መክተፍ (ጮማ እንዳይኖር).',
           'በመጠበሻ ላይ መጠነኛ በሆነ ሙቀት ሽንኩርቱን ትንሽ ቅቤ በማድረግ ማቁላላት.',
           'ቅመሞቹን ማስገባት.',
-          ' ሙቀቱን በመቀነስ ስጋ ፣ ጭጓራና ጉበት መጥበሻው ውስጥ ማስገባት.',
-          ' እንደየፍላጎቱ በእሳት ላይ መቆየት (ለብ ለብ ወይም ማብሰል).',
+          'ሙቀቱን በመቀነስ ስጋ፣ ጭጓራና ጉበት መጥበሻው ውስጥ ማስገባት.',
+          'እንደየፍላጎቱ በእሳት ላይ መቆየት (ለብ ለብ ወይም ማብሰል).',
           'በመጨረሻ ጨውና ቅቤ ማስገባትና ማጠናቀቅ',
           'Serve immediately.',
         ],
         ingredients: [
-          '2 shots espresso (a double shot)',
-          'የሚያስፈል, የበግ ጨጓራ,የበግ ጉበት',
-          'የጭቅና ስጋ, በርበሬ,የተከተፈ ቃሪያ',
-          'ቅቤ, ቁንዶ በርበሬ ፣ ኮሮሮሪማ,ጨው',
+          'የሚያስፈል',
+          'የበግ ጨጓራ',
+          'የበግ ጉበት',
+          'የጭቅና ስጋ',
+          'በርበሬ',
+          'የተከተፈ ቃሪያ',
+          'ቅቤ',
+          'ቁንዶ በርበሬ ፣ ኮሮሮሪማ',
+          'ጨው',
         ]),
    
         Recipe(
-        id: '4',
+        id: '2',
         title: 'ገንፎ',
         imageUrl: 'assets/images/genfo.jpg',
         nutrients: [
-          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
-          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'ካሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'ፕሮቲን', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'ካርቦሃይድርት', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'ፋት', weight: '10gm', percent: 0.2),
         ],
         steps: [
           'የስንዴውን ዱቄት በደንቡ ነፍቶ በነጩ ማመስ',
@@ -46,28 +53,21 @@ static List<Recipe> recipes = [
           'በወፍራሙ ገንፎውን ገለጥ ገለጥ እያደረጉ የፈላውን ወተትና ቅቤ ግማሽ ጠብ እያደረጉ መክደን',
         ],
         ingredients: [
-          ' ኪሎ ግራም አጥንት የሌለው ስጋ',
-          'ኪሎ ግራም የበግ አጥንት',
-          'መካከለኛ ጭልፋ ቀይ ሽንኩርት',
-          'ሾርባ ማንክያ ለጋ ቅቤ',
-          'ሾርባ ማንክያ ርጥብ ቅመም',
-          'ሾርባ ማንክያ እርድ',
-          'የተከተፈ ቃርያ',
-          'እግር ርጥብ በሶብላ',
-          'መካከለኛ ጭልፋ ባሮ',
-          'ሻይ ማንክያ ነጭ ቅመም',
-          'ሻይ ማንክያ ጨው',
-          'መካከለኛ ጭልፋ የሾርባ ቅጠል ግንድ',
+          ' 6 የቡና ስኒ (300 ግራም) የስንዴ ዱቄት'
+          '5 ሾርባ ማንኪያ ቅቤ',
+          '2 ሻይ ማንኪያ ጨው',
+          'ግማሽ ሊትር ውሃ',
+          'ሻይ ማንኪያ ሚጥሚጣ',
         ]),
     Recipe(
         id: '3',
         title: 'ክትፎ',
         imageUrl: 'assets/images/kitfo.jpg',
         nutrients: [
-          Nutrients(name: 'ኸሎሪ', weight: '100', percent: 0.2),
-          Nutrients(name: 'ፕርቲን', weight: '10gm', percent: 0.7),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.6),
-          Nutrients(name: 'Fat', weight: '10gm', percent: 0.3),
+          Nutrients(name: 'ካሎሪ', weight: '100', percent: 0.6),
+          Nutrients(name: 'ፕሮቲን', weight: '110gm', percent: 0.3),
+          Nutrients(name: 'ካርቦሃይድርት', weight: '50gm', percent: 0.2),
+          Nutrients(name: 'ፋት', weight: '100gm', percent: 0.7),
         ],
         steps: [
           'ስጋውን በደንብ አድቅቆ መክተፍና ስብ ስጋዎቹን መለየት',
@@ -82,42 +82,46 @@ static List<Recipe> recipes = [
           'ለክትፎ የተከተፈ ስጋ ግማሽ ወይም 1 ኪሎ',
           'ከ4 እስከ 5 ማንኪያ የሚሆን ቅቤ',
           'የተፈጨ ኮሮሪማ ወይም ሌላ ቅመም',
-          ' ጨው,ቁንዶ በርበሬ,ሚጥሚጣ',
+          'ጨው',
+          'ቁንዶ በርበሬ',
+          'ሚጥሚጣ',
         ]),
       Recipe(
         id: '4',
         title: 'ዶሮ ወጥ',
         imageUrl: 'assets/images/dorowet.jpg',
         nutrients: [
-          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
-          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'ካሎሪ', weight: '200', percent: 0.9),
+          Nutrients(name: 'ፕሮቲን', weight: '10gm', percent: 0.1),
+          Nutrients(name: 'ካርቦሃይድርት', weight: '50gm', percent: 0.5),
+          Nutrients(name: 'ፋት', weight: '100gm', percent: 0.7),
         ],
       steps: [
           'በመጀመሪያ ዶሮውን በመገነጣጠል እና በደንብ በማጠብ በሎሚ በተደባለቀ ውሃ መዘፍዘፍ (ለ35 ደቂቃ አካባቢ).',
           'በትንሽ ዘይት ወይም ቅቤ በማድረግ በርበሬውን በመጨመር በደንብ ማቁላላት (በተደጋጋሚ ማማሰል).',
-          ' በቀጣይ ሽንኩርቱን በመጨመር በማማሰል ከበርበሬው እንዲዋሃድ እና ሽንኩርቱን ማብሰል፣ ',
-          ' በመቀጠል የተዘጋጀውን የዶሮ ብልት ወደ ድስቱ መጨመር እስኪበስል መማሰል (እስከ 60 ደቂቃ ሊፈጅ ይችላል).',
+          'በቀጣይ ሽንኩርቱን በመጨመር በማማሰል ከበርበሬው እንዲዋሃድ እና ሽንኩርቱን ማብሰል፣ ',
+          'በመቀጠል የተዘጋጀውን የዶሮ ብልት ወደ ድስቱ መጨመር እስኪበስል መማሰል (እስከ 60 ደቂቃ ሊፈጅ ይችላል).',
           'በመቀጠል ቅመመችን መጨመር.',
           'በመቀጠል የተቀቀሉትን እንቁላሎች ማስገባት.',
-          ' በመቀጠል ጨው እና ቅቤ እንደ አስፈላጊነቱ መጨመር.',
-          ' በመጨረሻ በደንብ ሲንተከተክ ማውጣት.',
+          'በመቀጠል ጨው እና ቅቤ እንደ አስፈላጊነቱ መጨመር.',
+          'በመጨረሻ በደንብ ሲንተከተክ ማውጣት.',
         ],
         ingredients: [
-          ' አንድ ዶሮ የተበለተ ቅቤ',
+          'አንድ ዶሮ የተበለተ ቅቤ',
           'ሽንኩርት (የተከተፈ ከ1 እስከ 2 ኪሎ)',
           'ቅመም (ለወጥ ማዘጋጀት የሚያገለግሉ)',
           'በርበሬ (በጥሩ ሁኔታ ተዘጋጅቶ የተዘጋጀ)',
           'የበሰለ ዕንቁላል (ከ4 እስከ 6)',
         ]),
     Recipe(
-        id: '4',
+        id: '5',
         title: 'ቋንጣ ፍርፍር',
         imageUrl: 'assets/images/kwanta.jpg',
         nutrients: [
-          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
-          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'ካሎሪ', weight: '20', percent: 0.2),
+          Nutrients(name: 'ፕሮቲን', weight: '100gm', percent: 0.5),
+          Nutrients(name: 'ካርቦሃይድርት', weight: '50gm', percent: 0.3),
+          Nutrients(name: 'ፋት', weight: '100gm', percent: 0.7),
         ],
         steps: [
           'መጥበሻ ወይም ድስት በመጣድ ሽንኩርቱን ማስገባት.',
@@ -148,13 +152,14 @@ static List<Recipe> recipes = [
     
    
     Recipe(
-        id: '4',
+        id: '6',
         title: 'ድብልብል ስጋ ወጥ',
         imageUrl: 'assets/images/dubl.jpg',
         nutrients: [
-          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
-          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'ካሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'ፕሮቲን', weight: '70gm', percent: 0.5),
+          Nutrients(name: 'ካርቦሃይድርት', weight: '10gm', percent: 0.1),
+          Nutrients(name: 'ፋት', weight: '60gm', percent: 0.6),
         ],
         steps: [
           '----------------.',
@@ -175,7 +180,7 @@ static List<Recipe> recipes = [
           '1. ስጋውን ከ ዱቄቱ እና ከ እንቁላሉ ጋር ጨው ጨምሮ ማሸት',
         ]),
     Recipe(
-        id: '4',
+        id: '7',
         title: 'አምባሻ',
         imageUrl: 'assets/images/amb.jpg',
         nutrients: [
@@ -197,13 +202,13 @@ static List<Recipe> recipes = [
           '1 የሻይ ማንኪያ ጥቁር አዝሙድ አሰራር',
         ]),
  Recipe(
-        id: '4',
+        id: '8',
         title: 'ድፎ ዳቦ',
         imageUrl: 'assets/images/defo.jpg',
         nutrients: [
-          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
-          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'ካሎሪ', weight: '100', percent: 0.6),
+          Nutrients(name: 'ፕሮቲን', weight: '10gm', percent: 0.1),
+          Nutrients(name: 'ካርቦሃይድርት', weight: '700gm', percent: 0.9),
         ],
         steps: [
           'ስጋውን ከ ዱቄቱ እና ከ እንቁላሉ ጋር ጨው ጨምሮ ማሸት',
@@ -228,19 +233,20 @@ static List<Recipe> recipes = [
           'እንቁላል ',
         ]),
         Recipe(
-        id: '4',
+        id: '9',
         title: 'የዳቦ ቆሎ',
         imageUrl: 'assets/images/dkol.jpg',
         nutrients: [
-          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
-          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'ካሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'ፕሮቲን', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'ካርቦሃይድርት', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'ፋት', weight: '0gm', percent: 0.0),
         ],
       steps: [
           'ፍርኖ ዱቄቱን ከ ውሃ ፤ ዘይት፤ ጨው እን ስኳር ጋር በደንብ መቀላቀል እና ማሸት'
-              'ያሸነውን በቀጭኑ በቁመት ማድቦልቦል'
-              'ያድቦለቦልነውን በመቀስ መምንፈልገው ቅርፅ መቁረጥ'
-              'የቆረጥነውን የእንጀራ ምጣድ ላይ አጋም እስኪመሥል መቁላት',
+          'ያሸነውን በቀጭኑ በቁመት ማድቦልቦል'
+          'ያድቦለቦልነውን በመቀስ መምንፈልገው ቅርፅ መቁረጥ'
+          'የቆረጥነውን የእንጀራ ምጣድ ላይ አጋም እስኪመሥል መቁላት',
         ],
         ingredients: [
           '1 ኪሎ ፍርኖ ዱቄት',
@@ -251,20 +257,21 @@ static List<Recipe> recipes = [
           'የሻይ ማንኪያ ጨው',
         ]),
     Recipe(
-        id: '4',
+        id: '10',
         title: 'ሽሮ ወጥ',
         imageUrl: 'assets/images/shro.jpg',
         nutrients: [
-          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
-          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'ካሎሪ', weight: '20', percent: 0.2),
+          Nutrients(name: 'ፕሮቲን', weight: '130gm', percent: 0.9),
+          Nutrients(name: 'ካርቦሃይድርት', weight: '130gm', percent: 0.9),
         ],
         steps: [
-          ' ቲማቲሙን በዘይት ወይም በቂቤ ማቁላላት'
-              'ሲቁላላ ውሃ መጨመር'
-              'ሲፈላ ሽሮውን ጨምሮ በደምብ ማብሰል'
-              'ጨዉን እንደሰው ፍላጎት መጥኖ ማጣፈጥ'
-              'ወጡ ሲበስል ማውጣትና በቅቤ ከሆነ የተሰራው ትኩሱን፣ በዘይት ከሆነ የተሰራው ግን ቀዝቃዛውን ማቅረብ ይመረጣል.',
+          'ቲማቲሙን በዘይት ወይም በቂቤ ማቁላላት'
+          'ሲቁላላ ውሃ መጨመር'
+          'ሲፈላ ሽሮውን ጨምሮ በደምብ ማብሰል'
+          'ጨዉን እንደሰው ፍላጎት መጥኖ ማጣፈጥ'
+          'ወጡ ሲበስል ማውጣትና በቅቤ ከሆነ የተሰራው ትኩሱን',
+          'በዘይት ከሆነ የተሰራው ግን ቀዝቃዛውን ማቅረብ ይመረጣል.',
         ],
         ingredients: [
           'አራት ጭልፋ ውሃ',
@@ -274,13 +281,14 @@ static List<Recipe> recipes = [
           'ጨው',
         ]),
          Recipe(
-        id: '4',
+        id: '11',
         title: 'ጎመን በስጋ(ቆጭቆጮ)',
         imageUrl: 'assets/images/gsiga.jpg',
         nutrients: [
-          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
-          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'ካሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'ፕሮቲን', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'ካርቦሃይድርት', weight: '80gm', percent: 0.9),
+          Nutrients(name: 'ፋት', weight: '20gm', percent: 0.3),
         ],
         steps: [
           'ብረት ድስት ለይ ውሀ ጨምሮ እሳት ለይ መጣድ',
@@ -302,13 +310,14 @@ static List<Recipe> recipes = [
           ' ቃሪያ',
         ]),
             Recipe(
-        id: '4',
+        id: '12',
         title: 'ቡላ',
         imageUrl: 'assets/images/bula.jpg',
         nutrients: [
-          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
-          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'ካሎሪ', weight: '20', percent: 0.3),
+          Nutrients(name: 'ፕሮቲን', weight: '110gm', percent: 0.9),
+          Nutrients(name: 'ካርቦሃይድርት', weight: '150gm', percent: 0.6),
+          Nutrients(name: 'ፋት', weight: '10gm', percent: 0.1),
         ],
         steps: [
           'ውሀ ማፍላት',
@@ -325,13 +334,14 @@ static List<Recipe> recipes = [
           '2 የሻይ ማንኪያ ቅቤ',
         ]),
       Recipe(
-        id: '4',
+        id: '13',
         title: 'እንጀራ',
         imageUrl: 'assets/images/images (5).jpg',
         nutrients: [
-          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
-          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'ካሎሪ', weight: '100', percent: 0.7),
+          Nutrients(name: 'ፕሮቲን', weight: '20gm', percent: 0.5),
+          Nutrients(name: 'ካርቦሃይድርት', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'ፋት', weight: '0gm', percent: 0.0),
         ],
         steps: [
           'ጤፉን በጎድነጓዳ ሳህን መንፋት',
@@ -341,19 +351,20 @@ static List<Recipe> recipes = [
           'ትንሽ ቆይቶ መጋገር.',
         ],
         ingredients: [
-          '3ኪሎ ጤፍ',
-          '5ሊትር ውሀ የያዘ ባልዲ',
+          '3 ኪሎ ጤፍ',
+          '5 ሊትር ውሀ የያዘ ባልዲ',
           'እርሾ',
             
         ]),
            Recipe(
-        id: '4',
+        id: '14',
         title: 'ገንፎ',
         imageUrl: 'assets/images/genfo.jpg',
         nutrients: [
-          Nutrients(name: 'ኸሎሪ', weight: '200', percent: 0.7),
-          Nutrients(name: 'Protein', weight: '10gm', percent: 0.5),
-          Nutrients(name: 'Carb', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'ካሎሪ', weight: '200', percent: 0.7),
+          Nutrients(name: 'ፕሮቲን', weight: '10gm', percent: 0.5),
+          Nutrients(name: 'ካርቦሃይድርት', weight: '50gm', percent: 0.9),
+          Nutrients(name: 'ፋት', weight: '10gm', percent: 0.2),
         ],
         steps: [
           'የስንዴውን ዱቄት በደንቡ ነፍቶ በነጩ ማመስ',
@@ -367,7 +378,7 @@ static List<Recipe> recipes = [
           'ሚጥሚጣውን በቀሪው ቅቤ በማደባለቅ መሃል ላይ ጎድጎድ አድርጎ በመጨመር መመገብ',
         ],
         ingredients: [
-          ' 6 የቡና ስኒ (300 ግራም) የስንዴ ዱቄት'
+          '6 የቡና ስኒ (300 ግራም) የስንዴ ዱቄት'
           '5 ሾርባ ማንኪያ ቅቤ',
           '2 ሻይ ማንኪያ ጨው',
           'ግማሽ ሊትር ውሃ',
