@@ -65,17 +65,11 @@ class AppDrawer extends StatelessWidget {
                     ],
                   ),
                 )
-                 
-                 
-               ]//children
-           
-
-        
+              ],
+            ),
+          )
+        ],
       ),
-          
-    )
-    ]
-  )
-);
+    );
   }
 }
