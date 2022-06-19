@@ -29,7 +29,24 @@ class AppDrawer extends StatelessWidget {
                     ],
                   ),
                 )
-               ]
+                 const Divider(),
+                 InkWell(
+                  onTap: () => {
+                    Navigator.of(context).pushNamed(DeveloperScreen.routeName)
+                  },
+                  child: Row(
+                    children: const [
+                      Icon(Icons.developer_mode),
+                      SizedBox(width: 15),
+                      Text("Developer")
+                    ],
+                  ),
+                ),
+                 
+                 
+                 
+                 
+               ]//children
            
 
         
